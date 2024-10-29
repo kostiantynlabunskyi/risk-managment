@@ -1,0 +1,9 @@
+GET http://localhost:4004/odata/v4/service/risk/getItemsByQuantity?quantity=10
+
+POST http://localhost:4004/odata/v4/service/risk/createItem
+Content-Type: application/json
+
+{
+  "title": "New Item",
+  "quantity": 50
+}
