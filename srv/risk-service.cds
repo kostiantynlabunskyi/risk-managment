@@ -38,4 +38,7 @@ service RiskService @(requires: 'authenticated-user') {
     // BusinessPartner
     @readonly
     entity BusinessPartners as projection on rm.BusinessPartners;
+
+    function callOnpremise() returns String;
+
 }

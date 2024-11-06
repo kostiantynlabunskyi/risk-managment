@@ -35,7 +35,13 @@
         "credentials": {
           "url": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER/"
         }
-      }
+      },
+      "OnPremiseService": {
+        "kind": "rest",
+        "credentials": {
+          "destination": "OnPremiseExpressApp"
+        }
+     }
     }
   },
   "sapux": [
