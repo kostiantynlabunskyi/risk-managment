@@ -26,6 +26,7 @@ entity Risks : cuid, managed {
         bp : Association to BusinessPartners;
         virtual criticality      : Integer;
         virtual PrioCriticality : Integer;
+        createdBy : String @readonly;
 }
 
 entity Mitigations : cuid, managed {

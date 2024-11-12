@@ -27,7 +27,9 @@
         "model": "db/",
         "credentials": {
           "database": "db.sqlite"
-        }
+        },
+        "with": "createdBy, modifiedBy"
+
       },
       "API_BUSINESS_PARTNER": {
         "kind": "odata-v2",
