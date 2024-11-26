@@ -9,7 +9,7 @@
 |**Service Type**<br>Local Cap|
 |**Service URL**<br>http://localhost:4004/odata/v4/service/risk/|
 |**Module Name**<br>risk-management|
-|**Application Title**<br>Risk managment|
+|**Application Title**<br>Risk management|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.129.2|
